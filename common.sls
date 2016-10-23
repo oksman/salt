@@ -1,9 +1,12 @@
 common:
   pkg.installed:
     - pkgs:
-      - i3
       - compton
+      - feh
+      - i3
       - network-manager-gnome
       - volti
-      - feh
 
+  git.latest:
+    - name: https://github.com/oksman/dotfiles
+    - target: {{ "/home/nelisilma/test" }}
