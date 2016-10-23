@@ -10,3 +10,5 @@ common:
   git.latest:
     - name: https://github.com/oksman/dotfiles
     - target: {{ "/home/nelisilma/test" }}
+    - force_reset: True
+    - user: nelisilma
